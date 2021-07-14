@@ -1,0 +1,112 @@
+    html {
+      background: #282929;
+      color: #000;
+      font-family: 'Open Sans', sans-serif;
+      forced-color-adjust: none;
+      margin-top: 1rem;
+    		}
+
+    a {
+      color: rgb(0, 115, 255);
+    }
+
+    a:hover {
+      color: rgb(176, 255, 255);
+    }
+    
+    header {
+      display: flex;
+      align-content: center;
+      align-items: center;
+    }
+
+    @media screen and (max-width: 500px)  {
+      header {
+        flex-direction: column;
+      }
+    }
+    
+    body {
+      max-width: 700px;
+      margin: auto;
+      margin-bottom: 3rem;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: #FFFFFF;
+      border: 2px solid rgb(172, 172, 172);
+    }
+
+    h2 {
+        font-size: 2rem;
+        background: linear-gradient(to right, darkblue, darkorchid);
+        color: transparent;
+        background-clip: text;
+    }
+
+    h4 {
+      text-align: center;
+      font-variant: small-caps;
+      font-size: 1.2rem;
+      background: linear-gradient(to right, darkblue, darkorchid);
+      color: transparent;
+      background-clip: text;
+    }
+
+    .content {
+      padding: 2rem 2rem;
+      color: #fff;
+      background-image: linear-gradient(to top, black 0%, #434343 100%);
+    }
+    
+    img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+    }
+    
+    #logo {
+      width: 160px;
+      height: 140px;
+    }
+
+    #signature {
+      font-family: cursive;
+      font-size: 2rem;
+    }
+
+    footer {
+      background-color: #000;
+      color: #d5d5d5;
+      height: fit-content;
+      border-top: 1px solid rgb(48, 48, 48);
+      padding: 2rem;
+      text-align: center;
+      font-size: .8rem;
+    }
+
+    footer a {
+      color: #fff;
+    }
+
+    #social-links {
+      display: flex;
+      justify-content: space-evenly;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1rem;
+    }
+
+    .fa-user-circle {
+      color: #20cf7a;
+    }
+
+    .fa-github {
+      color: #fff;
+      padding: .2rem;
+    }
+
+    .fa-envelope-square {
+      color: burlywood;
+    }
